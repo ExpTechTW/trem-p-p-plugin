@@ -1,0 +1,16 @@
+{
+	"server_list": [
+		"p2p-1.yayaneko.eu.org:1015",
+		"p2p-2.yayaneko.eu.org:1015",
+		"p2p-3.yayaneko.eu.org:1015",
+		"p2p-4.yayaneko.eu.org:1015",
+		"p2p-5.yayaneko.eu.org:1015",
+		"p2p-6.yayaneko.eu.org:1015",
+		"p2p-7.yayaneko.eu.org:27030",
+		"p2p-8.yayaneko.eu.org:27030"
+	],
+    "server_listv6": [
+		"p2p-3-v6.yayaneko.eu.org_2030",
+		"p2p-6-v6.yayaneko.eu.org_2030"
+	]
+}

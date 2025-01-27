@@ -1,0 +1,14 @@
+{
+    "name": "p-p",
+    "version": "1.0.0",
+    "author": ["yayacat"],
+    "description": {
+        "zh_tw": "P2P IPv4 & IPv6 客戶端",
+        "zh-Hant": "P2P IPv4 & IPv6 客戶端"
+    },
+    "dependencies": {
+        "trem": "=3.1.0"
+    },
+    "resources": ["Apache-2.0"],
+    "link": "https://github.com/ExpTechTW/trem-p-p-plugin"
+}

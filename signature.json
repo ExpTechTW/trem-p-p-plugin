@@ -1,0 +1,22 @@
+{
+  "timestamp": 1737971978746,
+  "version": "1.0.0",
+  "fileHashes": {
+    "config.json": "15c5bb5ad84a60efa32b26b7be06a9d721582ac3fc08d9b54ec8ccc1a7bf3abd",
+    "index.js": "246ca982c223be3b9cce8047006ed192778aba89f5aae5c4a297ee47b4f91690",
+    "info.json": "368d3eca8c3c60d922e85e98568cbd76b81c3f86d9269a5e52e3c7616f135c19",
+    "linux_x64_client.jar": "ec92d27c6f9527d16b6273702da0ba4e30ae4f0bc8887a88e800aa6fb6117b71",
+    "linux_x64_client6.jar": "a043f5a3d82faf5033ee5b26834ccd9e1763d9a692c37d0653e2d87b1f140f46",
+    "macos_arm64_client.jar": "f8b4b4ace963ba2f2268aa5efff850507912ecb914b692b664a79adbde14bc8e",
+    "macos_arm64_client6.jar": "9f37d65ae55f376f5a28eeedb049f364fa191281050496b12a8ad67f9c0258c8",
+    "macos_x64_client.jar": "81ffa048743b153a817dc1874f40b79a05c088998e7620510db06caafc73fa24",
+    "macos_x64_client6.jar": "428d33f4a6c968070b586314f11613a1d5b12e319234e7ad30eaac1260b560e0",
+    "node_modules/bytenode/lib/cli.js": "24a55246e1183b53ec2f926d1d90958e7fb0a813575bf88d3ca8b895a27fea29",
+    "node_modules/bytenode/lib/index.d.ts": "3acea517c26f83f2eb20f9d672157c217ccc577895f64e94cc65db2e4c35b320",
+    "node_modules/bytenode/lib/index.js": "ec7b4f62ad15c8f0e73510173a6b9b300f68275c5630c39e48a70a2798fcdac6",
+    "winclient.jar": "2d47f2c6b38199b6d4f4bd6700c33ec8f3abbec358dba05818951b384710f8b2",
+    "winclient6.jar": "4488a942ba0a5c192a04d87548712b858c41c8ac22ce05ed014aadd4ae731dea"
+  },
+  "signature": "qveDUHq0YhrrEdotZl00EOuQ2DR9dN3SfL0NZlTf/piS5ItA/p+5kPAmBzmv87ZyvMa1Fg8nr+cVX37rCsPUvtNGnZEsUYkNf2W2q2bWGB6Xvm+Lb+aie7qO0vt2kuG0T9mIMFrFxyYcMvDEAt4XsGu+Adm5cuxXj5N80cmNj73hR9qb+NMKCb6NQlFYpiNVtcYYTVpKhqkz4EVVLMtgaAbni16XHN++SpfbtJNBqoAOws4wdf+nCou45Uq/u6x5u+oUJ0UtOoHRnkSBSz/Nf1TnPW+qgPhCCgtGLrl4k3vNeqI39GJbMX/SlEbofZbe++potOa1UfKFaO9JBP+txw==",
+  "keyId": "official"
+}
