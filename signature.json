@@ -1,10 +1,10 @@
 {
-  "timestamp": 1738284887244,
-  "version": "1.0.1",
+  "timestamp": 1738385179330,
+  "version": "1.0.2",
   "fileHashes": {
     "config.json": "15c5bb5ad84a60efa32b26b7be06a9d721582ac3fc08d9b54ec8ccc1a7bf3abd",
-    "index.js": "ab33ff1bd6ec1cb5b1bf77d06c092e11b240ae229ca0eb1a489c5c5a6b5107cb",
-    "info.json": "09089f9106408144beb77180d60abced0817e463e363455b70f6b2e33798dace",
+    "index.js": "2425fd23212386105ccf9db1296839e5d79e7e23f8660ee335f403a40c800e7d",
+    "info.json": "d8fa4e798cf721a0b07d8f26dc766aef7e58ec6dd8157d1376e488537dc3dea0",
     "linux_x64_client.jar": "1705abd1d097bf3402644ba8ef86afed003c3213aae73024c32e899322aff526",
     "linux_x64_client6.jar": "da3dd7cf84de519308ffef18926a5fde6cb51fdb12688ba34f4cae8c4d965ca9",
     "macos_arm64_client.jar": "ffc0580b53be1aca38cc8d31401de2cabf2e277717b3ec86b11a68bf35aac60b",
@@ -14,9 +14,12 @@
     "node_modules/bytenode/lib/cli.js": "24a55246e1183b53ec2f926d1d90958e7fb0a813575bf88d3ca8b895a27fea29",
     "node_modules/bytenode/lib/index.d.ts": "3acea517c26f83f2eb20f9d672157c217ccc577895f64e94cc65db2e4c35b320",
     "node_modules/bytenode/lib/index.js": "ec7b4f62ad15c8f0e73510173a6b9b300f68275c5630c39e48a70a2798fcdac6",
+    "node_modules/bytenode/LICENSE": "16d7ed7b8be9034217983ab33fda4efd22ed23962c4797699c94f159276d03f3",
+    "node_modules/bytenode/package.json": "a2f484ea759c12d2b2f44ca68bbdfb2bae16a22565ecf3adc801e2fb98a6d897",
+    "node_modules/bytenode/README.md": "c45abf3813e0288f0ae79e44f732df785674b87272d2627fe0905e996897f7cf",
     "winclient.jar": "7436f0e8c14f974903c9d2aee10ca4264c0c9fe0f5f86498d41f30b643bada5b",
     "winclient6.jar": "bd16e953cb3d13ba0f70ba4fdb598aa5e848c9ca02b448b4ebe48f342e25c77b"
   },
-  "signature": "yHZKesHNoMHRBDQOYgfcXKEntiuWfr1OclnwQxk+Y6+PK865c7hO23/lwQ7QPYbUoPNuZDlv74M/EGfF++rIcpEFlr0xRhBiNk2ksQUZpiLsgQ/Gq4enldGiuDsMCsVUz0hhC/sfSpa1cjbY2xSaUEcxysSjxR/ZY975eUh+J05NiHPwrckTMJSQ5ma/VVdz4jRqsvxbfel+1yHqpPZzMF6gZLQ55bzL0XCKflxlK7KN+ZC1XrkJU34DmHGEqQq/Gyr6gP5GWMSxtQLcYY1ZxuOvrXhFZU3zI6G6N5jUWlozqZRliBCSJ9AlHnygEYQNXpNrE7VHfS1VE2bT2rgP8Q==",
+  "signature": "Lkklk5L9b3JrWtkSVKXJLJZIMU6cqAErBJD0D3iPSD6v9HVFhzUDlYVUUejYcnRJXBamIGnG5qho28mJnKKzb8VmGbFNVx06ZVa6HeXNdSZiX2R8kEZ3dnL3yJPGFmvn2LzjBbb2uL/C2fOxeN/D87QQ7evipvlWGZMOg6MRfxrov/2xI58w03eVbO/iw1INLE0e9a4Rte7d92SEcu/0URjRqNEJpeUT+vtpnvLSGLlx+hevmDO9SScXsa33tupqSVGhW3ew5kUkEJzWRE0PHKq2JPNXFtH2qwuKAWD9oT3MkGInvtY+z8c2eBbnf8HfC4wa81sblowbQFYTLLPZ9A==",
   "keyId": "official"
 }
