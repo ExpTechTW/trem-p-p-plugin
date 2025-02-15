@@ -17,7 +17,7 @@ trem-p-p-plugin 適用於 TREM-Lite 3.1.1 版本。P2P IPv4 &amp; IPv6 客戶端
 
 - 首先至 [TREM 擴充](https://exptechtw.github.io/trem-plugins/) 或從 TREM-Lite > 設定 > 擴充 > 擴充商店內進行下載
 - 下載完成後，重新開啟設定頁面
-- 在擴充列表的 p-p 進行勾選，再次重新開啟設定頁面，即可使用
+- 在擴充列表的 p-p 進行勾選，關閉設定頁面，即可使用
 
 ## 開放原始碼授權
 
