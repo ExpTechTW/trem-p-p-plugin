@@ -9,6 +9,7 @@
     "dependencies": {
         "trem": "=3.1.1"
     },
+    "change": 1,
     "resources": ["Apache-2.0"],
     "link": "https://github.com/ExpTechTW/trem-p-p-plugin"
 }
