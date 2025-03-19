@@ -103,7 +103,7 @@ class Plugin {
 
 		event.on("data", (data) => {
 			logger.info(`type {${data.type}} from {p2p}`);
-			this.processEEWData(data);
+			if (data.type == "eew") this.processEEWData(data);
 			// get_data(data, "p2p");
 		});
 		event.on("log", (data) => {
@@ -121,7 +121,7 @@ class Plugin {
 			});
 		event6.on("datav6", (data) => {
 			logger.info(`type {${data.type}} from {p2pv6}`);
-			this.processEEWData(data);
+			if (data.type == "eew") this.processEEWData(data);
 			// get_data(data, "p2p");
 		});
 		event6.on("log", (data) => {
