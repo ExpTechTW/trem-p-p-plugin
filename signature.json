@@ -1,16 +1,16 @@
 {
-  "timestamp": 1742374299419,
-  "version": "1.0.4",
+  "timestamp": 1747489431359,
+  "version": "1.0.5",
   "fileHashes": {
     "config.json": "15c5bb5ad84a60efa32b26b7be06a9d721582ac3fc08d9b54ec8ccc1a7bf3abd",
     "index.js": "1397b6535d87f1d3f9037e914b4752c545c89afe5d599d89125377c07b688b81",
-    "info.json": "6d29cbf718b466e069af57f4bd9b047c9daa19a9baf3df5a7fc5969123862bd5",
-    "linux_x64_client.jar": "3b39f2c981aa63e26296cb3a48b9ff31ffb01d1136b31a409c8c360f6e511ebc",
-    "linux_x64_client6.jar": "b0dd6fb0ef33663138cb3a672587312b3b818e18cef76e892761996d1a04f978",
-    "macos_arm64_client.jar": "56a88bdf4c66ed5b11b2a7ba9f4ea653c82ba993b62d4488c33d808a098d3c6a",
-    "macos_arm64_client6.jar": "83421b0036e86ca782293cc1201a4f2599266bebc48ec9db939d40a56d88cd43",
-    "macos_x64_client.jar": "843c89e8206a49824a654dc3bbee5d5e3e5c1106682f3106ae36236dc1d0c386",
-    "macos_x64_client6.jar": "7e13841848d20f0bbdb4087076fab8ae97884061706368b51493e225c2677af8",
+    "info.json": "0eff22ae52cf9b40f141b0226ab24c8382d390878b4e0d0b6047d2d30cfe8a58",
+    "linux_x64_client.jar": "059cffefc9b4d538c8546b70db4ec6509b9bb77dbcdc58de53d7bdf3211959f4",
+    "linux_x64_client6.jar": "49c5500f45b302a37664e9bad2daf4caf2a871a52c586a35e5ea995ff2fc9149",
+    "macos_arm64_client.jar": "c5ce4c6a5096b3ec748b77b8a8fd2b034f877d29430c5c84f6413d546cddf792",
+    "macos_arm64_client6.jar": "b591bb3a344503ccd5018371c0f4b65d7eacfd6932fb2dfc7e823f8776159258",
+    "macos_x64_client.jar": "7aec97c7be51a0ef9622db20b15d3d806b5e34ab347b8bf3a7cb387edf801a91",
+    "macos_x64_client6.jar": "375fea9f80b466fadd8c4c6421a8d58213955594161b28854649d70c1f2ad240",
     "node_modules/.bin/bytenode": "5fbf574992d368e1fa86977a1d5e0faa1fdde5e0cba4cec79478b590d05bfd7e",
     "node_modules/.bin/bytenode.cmd": "a18fa4cec771a7866cdd465bbabf53e71b2d5ce2a07c2de802883948fd426a44",
     "node_modules/.bin/bytenode.ps1": "a114ab9bb71a4ddfa9a27f3812875f7785cdeba4a6d03c5e6bc5b2e62ef3e24c",
@@ -21,9 +21,9 @@
     "node_modules/bytenode/LICENSE": "16d7ed7b8be9034217983ab33fda4efd22ed23962c4797699c94f159276d03f3",
     "node_modules/bytenode/package.json": "a2f484ea759c12d2b2f44ca68bbdfb2bae16a22565ecf3adc801e2fb98a6d897",
     "node_modules/bytenode/README.md": "c45abf3813e0288f0ae79e44f732df785674b87272d2627fe0905e996897f7cf",
-    "winclient.jar": "a3845d89735f64d5bb4d34fb37d1372d0e713294fc0594daa877e496851ffe02",
-    "winclient6.jar": "1359416f53ff99ffff0558a967251dce23cc1e20357172e696b8a2aad4e78ffa"
+    "winclient.jar": "ea9f822cb0c2aa63623f6050e6bb78957b578fcfd7a75db0d7e423b3075530ae",
+    "winclient6.jar": "f5b3a1d8a0d44a6892d6457461c40907cfcf535a26746d2fdf3a0171ee60167e"
   },
-  "signature": "TpxB/HcV9vaevkFHlcwdMCK3lLKwV0acM1eLrKULNBZXsmCCEHIrXgGvPorR+TALEhEQYCAX3jrViyUkyS6ofyBsfqWEEMuwoMKsjC7KAKkNqojqv4Ze/AgcmrN8rRhDQKDxZ7XJF/TklEyiIPdVH+zNxle10BkHIzopRjt9zxuNlSPePN1WuoDuelh/foutZgBO77hd7lgR26xHgruR+kWs8L7x5WPw1L6eZHnJbzHx9Ij4SCB8Mqgv1GLMvMseY91M5fbCe+a4cn3PvVMGWfr2LpxKtIyad4tFmGLJbyxwkMKd6tUUPXMVdZ8X932Jc4bJl6k2FmXOfFtlIKYwaw==",
+  "signature": "Hqs+ArJ3d7QBOovVcJ62kt1ViFPM4vA/xq8R8C38XpJRaZ7Ql7FBNus7CnsrDh8MbNAF9dxUTnowaE5/4AXgTOaUOiiduPOe1OBr6orSj4Ya8YyWGMjX/Ls9aqjfFM4qyMOdEEKlA/hGZaH/1ridutxbWpBukB65IxXzR+6HYFaDVUboCumxZaV0Hw5xDOvl7UK9VPUXhO5jG/YSoavqfKpdLbqgf93TQdfQWDyPXSmYNeMfuxIGau5O0QPSRITuTHH+roPdGzoIEC7sxh2w0FnZE0vsqAN4mJeFQ7yRUzrV/bjh8j4r5Z54ceznJvgZ6baJIyBR6vWkmUTFyHDVng==",
   "keyId": "official"
 }
