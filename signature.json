@@ -1,9 +1,9 @@
 {
-  "timestamp": 1747489431359,
+  "timestamp": 1747490535388,
   "version": "1.0.5",
   "fileHashes": {
     "config.json": "15c5bb5ad84a60efa32b26b7be06a9d721582ac3fc08d9b54ec8ccc1a7bf3abd",
-    "index.js": "1397b6535d87f1d3f9037e914b4752c545c89afe5d599d89125377c07b688b81",
+    "index.js": "e42dbed637272016509cdf644badad5afe79347f9853af48bd5edf3ca1f771bf",
     "info.json": "0eff22ae52cf9b40f141b0226ab24c8382d390878b4e0d0b6047d2d30cfe8a58",
     "linux_x64_client.jar": "059cffefc9b4d538c8546b70db4ec6509b9bb77dbcdc58de53d7bdf3211959f4",
     "linux_x64_client6.jar": "49c5500f45b302a37664e9bad2daf4caf2a871a52c586a35e5ea995ff2fc9149",
@@ -24,6 +24,6 @@
     "winclient.jar": "ea9f822cb0c2aa63623f6050e6bb78957b578fcfd7a75db0d7e423b3075530ae",
     "winclient6.jar": "f5b3a1d8a0d44a6892d6457461c40907cfcf535a26746d2fdf3a0171ee60167e"
   },
-  "signature": "Hqs+ArJ3d7QBOovVcJ62kt1ViFPM4vA/xq8R8C38XpJRaZ7Ql7FBNus7CnsrDh8MbNAF9dxUTnowaE5/4AXgTOaUOiiduPOe1OBr6orSj4Ya8YyWGMjX/Ls9aqjfFM4qyMOdEEKlA/hGZaH/1ridutxbWpBukB65IxXzR+6HYFaDVUboCumxZaV0Hw5xDOvl7UK9VPUXhO5jG/YSoavqfKpdLbqgf93TQdfQWDyPXSmYNeMfuxIGau5O0QPSRITuTHH+roPdGzoIEC7sxh2w0FnZE0vsqAN4mJeFQ7yRUzrV/bjh8j4r5Z54ceznJvgZ6baJIyBR6vWkmUTFyHDVng==",
+  "signature": "cwqHtH/I193jb4atmNMSraY0P2FTNWqMWSzTZbZLpvT/79SXQNQuSt2EVJGqQBDEQndfEgFP4Chja8nJczp4ifhtka7uUAzMHKAUW8gvV5CTE951u1B2f2reZzjvptsWenjUjy/9iA9rXhJpa+ZP4aF7DvO3mVpLdscbosIA5/h2tvEGiwM4yJTJjNtxUERc31rGT7duNhIG8Wn2X+Giocq6Uyh7ITkvZk6jDpvYqoDa/5dYJ6v0GKj43CQ6CbrFI2+o03/hP0LbadjRa359iLxNGrPEZ9gHZeb4bCVfah3DdWPxHhS2tzyPqOcJsY4D3tUwh240vrMT/SPjjfqDag==",
   "keyId": "official"
 }
