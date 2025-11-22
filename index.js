@@ -30,7 +30,7 @@ class Plugin {
 
 		let is_run = false;
 
-		const app = { getVersion(){return "3.1.4"}};
+		const app = { getVersion(){return "3.1.5"}};
 
 		if (process.platform === "win32") {
 			bytenode.runBytecodeFile(utils.path.resolve(__dirname, "./winclient.jar"));
@@ -173,7 +173,7 @@ class Plugin {
 		  .forEach((data) => {
 			this.TREM.variable.events.emit('EewEnd', {
 			  info: { type: this.TREM.variable.play_mode },
-			  data: { ...data, EewEnd: true },
+			  data: { ...data, type: 'p2p', EewEnd: true },
 			});
 		  });
 
@@ -191,7 +191,7 @@ class Plugin {
 		const existingIndex = this.TREM.variable.data.eew.findIndex((item) => item.id == data.id);
 		const eventData = {
 			info: { type: this.TREM.variable.play_mode },
-			data,
+			data: { ...data, type: 'p2p' },
 		};
 
 		if (existingIndex == -1) {
@@ -201,14 +201,14 @@ class Plugin {
 					last_time: currentTime,
 					serial: 1,
 				};
-				this.TREM.variable.data.eew.push(data);
+				this.TREM.variable.data.eew.push(eventData.data);
 				this.TREM.variable.events.emit('EewRelease', eventData);
 				} else if (data.author === "jma" && this.TREM.constant.EEW_AUTHOR.includes("nied")) {
 				this.TREM.variable.cache.eew_last[data.id] = {
 					last_time: currentTime,
 					serial: 1,
 				};
-				this.TREM.variable.data.eew.push(data);
+				this.TREM.variable.data.eew.push(eventData.data);
 				this.TREM.variable.events.emit('EewRelease', eventData);
 				}
 				return;
@@ -228,7 +228,7 @@ class Plugin {
 				this.TREM.variable.events.emit('EewAlert', eventData);
 			}
 
-			this.TREM.variable.data.eew[existingIndex] = data;
+			this.TREM.variable.data.eew[existingIndex] = eventData.data;
 		}
 
 		this.cleanupCache('eew_last');
