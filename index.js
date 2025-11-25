@@ -197,19 +197,21 @@ class Plugin {
 		if (existingIndex == -1) {
 			if (!this.TREM.variable.cache.eew_last[data.id]) {
 				if (this.TREM.constant.EEW_AUTHOR.includes(data.author)) {
-				this.TREM.variable.cache.eew_last[data.id] = {
-					last_time: currentTime,
-					serial: 1,
-				};
-				this.TREM.variable.data.eew.push(eventData.data);
-				this.TREM.variable.events.emit('EewRelease', eventData);
+					this.TREM.variable.cache.eew_last[data.id] = {
+						last_time: currentTime,
+						serial: 1,
+					};
+					const method = data.author === 'trem' ? 'nsspe' : 'eew';
+					this.TREM.variable.data.eew.push({ ...eventData.data, method });
+					this.TREM.variable.events.emit('EewRelease', eventData);
 				} else if (data.author === "jma" && this.TREM.constant.EEW_AUTHOR.includes("nied")) {
-				this.TREM.variable.cache.eew_last[data.id] = {
-					last_time: currentTime,
-					serial: 1,
-				};
-				this.TREM.variable.data.eew.push(eventData.data);
-				this.TREM.variable.events.emit('EewRelease', eventData);
+					this.TREM.variable.cache.eew_last[data.id] = {
+						last_time: currentTime,
+						serial: 1,
+					};
+					const method = data.author === 'trem' ? 'nsspe' : 'eew';
+					this.TREM.variable.data.eew.push({ ...eventData.data, method });
+					this.TREM.variable.events.emit('EewRelease', eventData);
 				}
 				return;
 			}
@@ -223,6 +225,14 @@ class Plugin {
 			}
 
 			this.TREM.variable.events.emit('EewUpdate', eventData);
+
+			if (data.eq.mag && data.eq.mag != 1) {
+				data.method = 'eew';
+			}
+
+			if (data.status == 3 && this.TREM.variable.data.eew[existingIndex].status != data.status) {
+				this.TREM.variable.events.emit('EewCancel', eventData);
+			}
 
 			if (!this.TREM.variable.data.eew[existingIndex].status && data.status == 1) {
 				this.TREM.variable.events.emit('EewAlert', eventData);
