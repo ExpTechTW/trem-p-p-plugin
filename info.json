@@ -1,6 +1,6 @@
 {
     "name": "p-p",
-    "version": "1.0.8",
+    "version": "1.0.9",
     "author": ["yayacat"],
     "description": {
         "zh_tw": "P2P IPv4 & IPv6 客戶端",
