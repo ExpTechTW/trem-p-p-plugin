@@ -238,7 +238,7 @@ class Plugin {
 				this.TREM.variable.events.emit('EewAlert', eventData);
 			}
 
-			this.TREM.variable.data.eew[existingIndex] = eventData.data;
+			this.TREM.variable.data.eew[existingIndex] = data;
 		}
 
 		this.cleanupCache('eew_last');
