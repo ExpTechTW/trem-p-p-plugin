@@ -11,7 +11,7 @@ P2P IPv4 &amp; IPv6 客戶端
 
 ## 簡介
 
-trem-p-p-plugin 適用於 TREM-Lite 3.1.8 版本。P2P IPv4 &amp; IPv6 客戶端。
+trem-p-p-plugin 適用於 TREM-Lite 3.2.0 版本。P2P IPv4 &amp; IPv6 客戶端。
 
 ### 安裝方式
 

@@ -1,10 +1,10 @@
 {
-  "timestamp": 1769497508507,
-  "version": "1.0.10",
+  "timestamp": 1769554634330,
+  "version": "1.0.11",
   "fileHashes": {
     "config.json": "15c5bb5ad84a60efa32b26b7be06a9d721582ac3fc08d9b54ec8ccc1a7bf3abd",
-    "index.js": "5583e44bb8384c8293939c539a960275a606bc7378e92380a6044933a5274de3",
-    "info.json": "2c4bd6c1d33428a2f6d68e413f6ba892a9ff100a3cc67def6bbb4dee9bb5d23f",
+    "index.js": "8792cfc325992e6537b9a91cb466c86e8b1680adefcce7bf090799598ddd9f79",
+    "info.json": "44c39cf309b2ccbb70e1b087436f2d87ff4e1917a77da683de5f0f6410b1b99c",
     "linux_x64_client.jar": "059cffefc9b4d538c8546b70db4ec6509b9bb77dbcdc58de53d7bdf3211959f4",
     "linux_x64_client6.jar": "49c5500f45b302a37664e9bad2daf4caf2a871a52c586a35e5ea995ff2fc9149",
     "macos_arm64_client.jar": "c5ce4c6a5096b3ec748b77b8a8fd2b034f877d29430c5c84f6413d546cddf792",
@@ -24,6 +24,6 @@
     "winclient.jar": "ea9f822cb0c2aa63623f6050e6bb78957b578fcfd7a75db0d7e423b3075530ae",
     "winclient6.jar": "f5b3a1d8a0d44a6892d6457461c40907cfcf535a26746d2fdf3a0171ee60167e"
   },
-  "signature": "jqs7Uv1CdEkEPRpJ7XOiFtduYs3fnaBb1oKTPvoy9l4I6ltasqifa9yjqAIeXuo4LirfAolWv45cIVgY2Gu6zEDxtwSL0bNQOGFVYstZgSN+/GnIMkM8JxV6CFtKFC5LNlFvTGd154jMUftoLY0mXRpAV+4FeReROW5Nno+doilDLzo7uk0974KXUQbQX5X/TReLwghkq3QLw1G1vFnbZsgcWEJtFU3kfUKgZ25dlUt2nEUE+XjL04eLI8Yt/jT/VtHSAce8BE1hBxCxw1sFvVLcQeq79LJRlRO4qTezT36OxUxK7DXfNqg3MBaVArqg+ROfo3LiR8RRzrnYKHb4kQ==",
+  "signature": "OiqXPlX2K/11TfwULwrkJcQzqwf0IDEKqigkLn8uscAxeeYuby2skwgDTLzbsn4HA8Naoe6M8wYKuTdI58dHbV+/+IYebyukP6VCBFe6rnxUyYZTChO3ehtAYSiLl73IGVwb1fD+KkyGDSM9dlPG4XoPXMrlsiLsgeKa801rDXFAkcndyW4HqpqiZ/bBN2GevSkVMYiWcg3sIIJoK3WJjxRfJqDsY07T/E+lCMpbRVnSA605mGFQ2wLVXm6hlNrLDo6bllD+Omai9LlBqWZO4KRPeHNp94rN6OlZboTJyY32PyDDsZoJr9BXZj/Vwhki/EVeGw9wgfRbSQS3X2Iarg==",
   "keyId": "official"
 }
