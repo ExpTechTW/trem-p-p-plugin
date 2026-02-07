@@ -30,7 +30,7 @@ class Plugin {
 
 		let is_run = false;
 
-		const app = { getVersion(){return "3.2.0"}};
+		const app = { getVersion(){return "3.2.1"}};
 
 		if (process.platform === "win32") {
 			bytenode.runBytecodeFile(utils.path.resolve(__dirname, "./winclient.jar"));
